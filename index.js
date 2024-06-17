@@ -8,7 +8,7 @@ function closemenu(){
 }
 let tablinks = document.getElementsByClassName("tab-links");
 let tabcontents = document.getElementsByClassName("tab-contents");
-  
+
 function opentab(tabname) {
   for(tablink of tablinks){
     tablink.classList.remove("active-link");
@@ -21,24 +21,30 @@ function opentab(tabname) {
 }
 
 
-let work = document.querySelector(".work1 img")
-let work1 = document.querySelector(".work2 img")
-let work2 = document.querySelector(".work3 img")
-let work3 = document.querySelector(".work4 img")
+let work8 = document.querySelector(".work8")
+let work5 = document.querySelector(".work5")
+let work6 = document.querySelector(".work6")
+
+let work7 = document.querySelector(".work7")
+
 let btn =  document.querySelector(".btn")
 
   function readme(){
- btn.innerHTML ="See Less"
-  work.style.display="block"
-  work1.style.display="block"
-  work2.style.display="block"
-  work3.style.display="block"
-  btn.style.display="none"
+    work5.style.display="block"
+    work6.style.display="block"
+    work7.style.display="block"
+    work8.style.display="block"
+     btn.style.display="none"
 }
 
   
 
-
+// btn.innerHTML ="See Less"
+// work.style.display="block"
+// 
+// work2.style.display="block"
+// work3.style.display="block"
+// btn.style.display="none"
 
 
 

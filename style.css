@@ -26,7 +26,7 @@ body {
 
 .span {
   color:white;
-  text-decoration: none;
+  text-decoration: block;
   cursor: pointer;
 }
 h3 {
@@ -67,8 +67,9 @@ h3 {
   margin-left: 25px;
   color: white;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration:none;
   font-family: Montserrat;
+  list-style: none;
 }
 .p:hover {
   color: rgb(123, 209, 235);
@@ -109,7 +110,7 @@ h3 {
   height: 40px;
   width: 150px;
   background-color: #0092ca;
-  border: none;
+  border: block;
   border-radius: 20px;
   font-size: 18px;
   font-family: Montserrat;
@@ -127,7 +128,7 @@ h3 {
   height: 30px;
   width: 100px;
   background-color: #0092ca;
-  border: none;
+  border: block;
   border-radius: 20px;
   font-size: 0.7rem;
   font-family: Montserrat;
@@ -152,7 +153,7 @@ h3 {
   width: 500px;
   margin-top: 70px;
   background-color: #0092ca;
-  border: none;
+  border: block;
   border-radius: 4px;
 }
 .form-check-label {
@@ -168,13 +169,13 @@ h3 {
   margin-left: 200px;
   margin-top: 20px;
   background-color: #0092ca;
-  border: none;
+  border: block;
   border-radius: 20px;
   font-size: 0.7rem;
   font-family: Montserrat;
   font-weight: 200;
   cursor: pointer;
-  display: none;
+  display: block;
 }
 .btn:hover {
   background-color: #222f3d;
@@ -224,7 +225,7 @@ nav ul li {
 
 nav ul li {
   display: inline-block;
-  list-style: none;
+  list-style: block;
   margin: 10px 20px;
 }
 .content {
@@ -343,7 +344,7 @@ h1 {
   font-weight: 500;
 }
 .services-list div a {
-  text-decoration: none;
+  text-decoration: block;
   color: white;
   font-size: 12px;
   margin-top: 20px;
@@ -375,13 +376,20 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  flex-wrap: wrap;
+ 
+}
+.work {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  
 }
 .work1 {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  flex-wrap: wrap;
+  
+  display: none;
 }
 .work2 {
   border-radius: 10px;
@@ -393,14 +401,40 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  flex-wrap: wrap;
+ 
 }
 .work4 {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  flex-wrap: wrap;
+
 }
+.work5{
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: none;
+
+}
+.work6{
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+.work7{
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+.work8{
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+
 
 .work img {
   width: 100%;
@@ -417,7 +451,7 @@ h1 {
   display: block;
   transition: transform 0.5s;
   cursor: pointer;
-  display: none;
+  display: block;
 }
 .work2 img {
   width: 100%;
@@ -426,7 +460,7 @@ h1 {
   display: block;
   transition: transform 0.5s;
   cursor: pointer;
-  display: none;
+  display: block;
 }
 .work3 img {
   width: 100%;
@@ -435,7 +469,7 @@ h1 {
   display: block;
   transition: transform 0.5s;
   cursor: pointer;
-  display: none;
+  display: block;
 }
 .work4 img {
   width: 100%;
@@ -444,7 +478,43 @@ h1 {
   display: block;
   transition: transform 0.5s;
   cursor: pointer;
-  display: none;
+  display: block;
+}
+.work5 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+  cursor: pointer;
+  display: block;
+}
+.work6 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+  cursor: pointer;
+  display: block;
+}
+.work7 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+  cursor: pointer;
+  display: block;
+}
+.work8 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+  cursor: pointer;
+  display: block;
 }
 
 .layer {
@@ -471,7 +541,7 @@ h1 {
 .layer a {
   margin-top: 20px;
   background: white;
-  text-decoration: none;
+  text-decoration: block;
   font-size: 18px;
   line-height: 60px;
   width: 60px;
@@ -510,6 +580,30 @@ h1 {
 .work4:hover .layer {
   height: 100%;
 }
+.work5:hover .layer {
+  height: 100%;
+}
+.work5:hover .layer {
+  height: 100%;
+}
+.work6:hover .layer {
+  height: 100%;
+}
+.work6:hover .layer {
+  height: 100%;
+}
+.work7:hover .layer {
+  height: 100%;
+}
+.work7:hover .layer {
+  height: 100%;
+}
+.work8:hover .layer {
+  height: 100%;
+}
+.work8:hover .layer {
+  height: 100%;
+}
 
 
 .layer p {
@@ -529,7 +623,7 @@ h1 {
   border-radius: 6px;
   color: white;
   font-size: 15px;
-  text-decoration: none;
+  text-decoration: block;
   text-align: center;
   transition: background 0.5s;
   display: block;
@@ -543,10 +637,10 @@ h1 {
   border-radius: 6px;
   color: white;
   font-size: 15px;
-  text-decoration: none;
+  text-decoration: block;
   text-align: center;
   transition: background 0.5s;
-  display: none;
+  display: block;
   background-color: #0092ca;
 }
 
@@ -581,7 +675,7 @@ h1 {
   font-size: 25px;
 }
 .social-icons a {
-  text-decoration: none;
+  text-decoration: block;
   font-size: 30px;
   margin-right: 15px;
   color: #0092ca;
@@ -601,7 +695,7 @@ form input,
 form textarea {
   width: 50%;
   border: 0;
-  outline: none;
+  outline: block;
   background-color: #222f3d;
   padding: 15px;
   margin: 15px 0;
@@ -758,24 +852,24 @@ span{
   font-weight: 800;
 }
 .read{
-  display: none;
+  display: block;
 }
 button{
-  background: none;
-  border: none;
+  background: block;
+  border: block;
   color: white;
   cursor: pointer;
 }
 .btn1{
-  background: none;
-  border: none;
+  background: block;
+  border: block;
   color: white;
   cursor: pointer;
 }
 .read2{
-  display: none;
+  display: block;
 }
 .read3{
-  display: none;
+  display: block;
 }
 
